@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio UKK </title>
+    <link rel="stylesheet" href="css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="bgMusic" loop>
+        <source src="audio/music-vibe.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="intro-overlay">
+        <div id="start-screen">
+            <button id="btn-start">Klik Saya!</button>
+        </div>
+
+        <div id="intro-content" style="display: none;">
+            <img src="img/foto1.png" class="intro-img active">
+            <img src="img/foto2.png" class="intro-img">
+            <img src="img/foto3.png" class="intro-img">
+        </div>
+    </div>
+    <header>
+        <div class="logo">Porto<span>Folio</span></div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#skill">Skill</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-container">
+            <div class="profile-img">
+                <img src="img/profil.jpg" alt="Foto Profil Kamu">
+            </div>
+            
+            <div class="home-text">
+                <h3>Hai, Saya</h3>
+                <h1>Efan Maulana</h1>
+                <p>Saya adalah siswa Pengembangan Perangkat Lunak dan Gim (PPLG)
+                    yang berdedikasi dan memiliki minat dalam pengembangan Frontend & Backend (Full Stack). 
+                    Siap membangun solusi digital yang kreatif dan inovatif.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/evan-redefined"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61553610376766&mibextid=rS40aB7S9Ucbxw6v"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/van_maolana?igsh=NGRnOXU1bmQzNTQ2"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="#contact" class="btn">Hubungi Saya</a>
+            </div>
+        </div>
+    </section>
+
+   <section id="skill" class="skill">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skill-container">
+            <div class="skill-box"><i class="fab fa-html5"></i> <h3>HTML</h3></div>
+            <div class="skill-box"><i class="fab fa-css3-alt"></i> <h3>CSS</h3></div>
+            <div class="skill-box"><i class="fab fa-js"></i> <h3>JavaScript</h3></div>
+            <div class="skill-box"><i class="fab fa-linux"></i> <h3>Linux</h3></div>
+            <div class="skill-box"><i class="fab fa-php"></i> <h3>PHP</h3></div>
+            <div class="skill-box"><i class="fab fa-python"></i> <h3>Python</h3></div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+    <h2 class="heading">My <span>Gallery</span></h2>
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="img/project1.jpg" alt="Project 1" class="gallery-img">
+            <div class="gallery-info">
+            </div>
+        </div>
+        <div class="gallery-item"><img src="img/project2.jpg" alt="Project 2" class="gallery-img"></div>
+        <div class="gallery-item"><img src="img/project3.jpg" alt="Project 3" class="gallery-img"></div>
+        <div class="gallery-item"><img src="img/project4.jpg" alt="Project 4" class="gallery-img"></div>
+        <div class="gallery-item"><img src="img/project5.jpg" alt="Project 5" class="gallery-img"></div>
+        <div class="gallery-item"><img src="img/project6.jpg" alt="Project 6" class="gallery-img"></div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
+</section>
+
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Nama Lengkap">
+            <input type="email" id="email" placeholder="Alamat Email">
+            <textarea id="message" rows="5" placeholder="Pesan Anda"></textarea>
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <button id="scrollToTop" class="scroll-btn"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="js/script.js"></script> </body>
+</html>
