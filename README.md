@@ -1,4 +1,4 @@
-# Portfolio - Efan Maulana
+# Portofolio - Efan Maulana
 
 Web portofolio responsif yang dibangun untuk memenuhi tugas **UKK (Uji Kompetensi Keahlian)** jurusan **PPLG (Pengembangan Perangkat Lunak dan Gim)** di **SMK Negeri 1 Maja**. Proyek ini mengedepankan estetika *modern-dark* dengan fitur interaktif yang sinematik.
 
